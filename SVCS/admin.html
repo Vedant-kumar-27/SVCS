@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authority Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Traffic Authority Dashboard</h1>
+    <p>Monitoring & Analytics Panel</p>
+</header>
+
+<main class="admin-panel">
+
+    <section class="metrics">
+        <h2>System Metrics</h2>
+        <ul>
+            <li>Total Incidents: <span id="totalIncidents">0</span></li>
+            <li>Emergency Activations: <span id="emergencyCount">0</span></li>
+            <li>Average Response Time: <span id="responseTime">--</span></li>
+        </ul>
+    </section>
+
+    <section class="logs">
+        <h2>Live Event Log</h2>
+        <ul id="eventLog"></ul>
+    </section>
+
+</main>
+
+<footer>

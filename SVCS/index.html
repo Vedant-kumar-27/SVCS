@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Vehicle Communication System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Smart Vehicle Communication System</h1>
+        <p>V2V & V2I Communication Simulation Platform</p>
+    </header>
+
+    <main class="control-panel">
+
+        <section class="controls">
+            <h2>Simulation Controls</h2>
+
+            <button id="btnNormal">Start Normal Traffic</button>
+            <button id="btnAccident">Trigger Accident</button>
+            <button id="btnCongestion">Trigger Congestion</button>
+            <button id="btnEmergency">Activate Emergency Vehicle</button>
+        </section>
+
+        <section class="status">
+            <h2>System Status</h2>
+            <ul>
+                <li>Traffic State: <span id="trafficState">Idle</span></li>
+                <li>Active Incident: <span id="incidentState">None</span></li>
+                <li>Emergency Mode: <span id="emergencyState">OFF</span></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Smart India Hackathon Prototype</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

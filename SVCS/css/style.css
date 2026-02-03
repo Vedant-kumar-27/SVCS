@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background-color: #0a2540;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.controls, .status {
+    background: #ffffff;
+    padding: 20px;
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #eaeaea;
+}
+
+
+
+
+.vehicle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.vehicle-card {
+    background: #fff;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.vehicle-card.alert {
+    border-left: 6px solid orange;
+}
+
+.vehicle-card.slowed {
+    border-left: 6px solid red;
+}
+
+.vehicle-card.normal {
+    border-left: 6px solid green;
+}
+
+
+
+
+
+.signal-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.signal-card {
+    background: #ffffff;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.signal-light {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+
+.mode {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+.emergency-panel {
+    padding: 40px;
+    text-align: center;
+}
+
+.emergency-status {
+    background: white;
+    padding: 25px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.emergency-status button {
+    margin-top: 15px;
+}
+
+
+
+.vehicle-card.slowed {
+    border-left: 6px solid red;
+    background-color: #fff5f5;
+}
+
+
+.admin-panel {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.metrics, .logs {
+    background: white;
+    padding: 20px;
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.logs ul {
+    max-height: 250px;
+    overflow-y: auto;
+    padding-left: 15px;
+}
